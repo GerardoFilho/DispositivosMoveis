@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/android_robot"
     tools:context=".activity.AdicionarTarefaActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -21,7 +22,7 @@
             android:id="@+id/textTarefa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite uma tarefa" />
+            android:hint="@string/digite_uma_tarefa_autocomplete" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <RadioButton
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
         android:layout_marginTop="31dp"
-        android:text="Urgente"
+        android:text="@string/urgente"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 
@@ -40,7 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="59dp"
-        android:text="Nao urgente"
+        android:text="@string/nao_urgente"
+        android:textColor="#424242"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
