@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Adicionar Livro</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Lista de Livros</string>
+    <string name="second_fragment_label">Componentes</string>
+    <string name="next">Proximo</string>
+    <string name="previous">Anterior</string>
+    <string name="red_string">Red</string>
+    <string name="green_string">Green</string>
+    <string name="yellow_string">Yellow</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="urgente">Urgente</string>
+    <string name="nao_urgente">Não urgente</string>
+    <string name="digite_uma_tarefa_autocomplete">Digite um livro</string>
+</resources>
